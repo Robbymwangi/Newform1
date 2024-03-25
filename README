@@ -1,0 +1,27 @@
+# Job Application Form
+
+This is a simple HTML form for job applications. The form is divided into several sections to collect different types of information from the applicant.
+
+## Sections
+
+1. **Personal Information**: This section collects basic information such as name, email, phone number, address, and city.
+
+2. **Education Level**: This section asks the applicant to select their highest level of education from a dropdown menu.
+
+3. **Work Experience**: This section asks the applicant to select their years of work experience from a dropdown menu.
+
+4. **Job Position**: This section asks the applicant to select the job position they are applying for from a dropdown menu.
+
+5. **Skills**: This section provides a text area for the applicant to list their skills.
+
+6. **Resume Upload**: This section provides an option for the applicant to upload their resume. The file input accepts .pdf, .doc, and .docx files.
+
+The form uses POST method to send form data to a server-side script (newform1.php). The form also includes a submit button for the applicant to submit their application.
+
+## Usage
+
+To use this form, simply open the HTML file in a web browser. Fill out the form fields and click the "Submit" button to submit the form. The form data will be sent to the server-side script specified in the form's `action` attribute.
+
+## Note
+
+This form does not include any client-side or server-side validation. It's recommended to add appropriate validation to ensure the data integrity.
