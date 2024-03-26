@@ -13,11 +13,39 @@ head{
 #centered-text{
     text-align: center;
 }
+#logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* This will maintain the aspect ratio */
+}#logo-container {
+    display: flex;
+    justify-content: center;
+}
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
     padding: 20px;
 }
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+head,body{
+    background: linear-gradient(45deg, #808080, #A9A9A9, #C0C0C0, #D3D3D3);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
 
 form {
     background-color: #ffffff;
